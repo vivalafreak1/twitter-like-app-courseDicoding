@@ -23,17 +23,10 @@
         "no-alert": "off",
         "no-underscore-dangle": "off",
         "import/prefer-default-export": "off",
-        "import/no-extraneous-dependencies": [
-            "error", 
-            {
-              "devDependencies": [
-                "i:/dicoding/web/front-end-dicoding/twitter-like-app/node_modules/@reduxjs/toolkit/dist/index",
-                "i:/dicoding/web/front-end-dicoding/twitter-like-app/node_modules/react-redux-loading-bar/index"
-              ]
-            }
-        ],
+        "import/no-extraneous-dependencies": "off",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "no-unused-vars": "off"
     }
 }
